@@ -1,0 +1,232 @@
+/* Setup
+------------------------------------------------*/
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* Layout 
+------------------------------------------------*/
+
+.content-wrap-1080 {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.content-wrap-960 {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.content-wrap-720 {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Typography
+------------------------------------------------*/
+
+body {
+  background: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 80px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(44, 113, 231, 0.5);
+}
+
+/* Buttons
+------------------------------------------------*/
+
+.btn-icon {
+  position: all;
+  margin-left: 16px;
+}
+
+/* Primary – Default State */
+.btn-primary {
+  display: inline-flex;
+  margin: 0 auto;
+  padding: 16px 32px;
+  background: black;
+  border-radius: 48px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+/* Primary – Hover State */
+.btn-primary:hover {
+  background: #2c71e7;
+  color: white;
+}
+
+/* Primary – Focus State */
+.btn-primary:focus {
+  box-shadow: 0 0 0 4px rgba(121, 121, 137, 0.4);
+}
+
+/* Secondary – Default State */
+.btn-secondary {
+  display: inline-flex;
+  margin: 0 auto;
+  padding: 10px 26px;
+  background: white;
+  border: 4px solid black;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+/* Secondary – Hover State */
+.btn-secondary:hover {
+  color: #2c71e7;
+}
+
+/* Secondary – Focus State */
+.btn-secondary:focus {
+  box-shadow: 0 0 0 4px rgba(121, 121, 137, 0.4);
+}
+
+/* Link – Default State */
+.link-btn {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* Link – Hover State */
+.link-btn:hover {
+  transform: scale(1.2);
+  color: #2c71e7;
+}
+
+/* Link – Focus State */
+.link-btn:focus {}
+
+
+
+
+
+/* Navigation
+------------------------------------------------*/
+
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 100%;
+  background: white;
+  overflow: hidden;
+  height: 80px;
+}
+
+.items-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.right-items {
+  float: right;
+}
+
+.left-items {
+  display: inline-flex;
+  float: left;
+}
+
+/* Navigation Items – Default State */
+.nav-item {
+  padding: 12px 16px;
+  margin: 0 8px;
+  border-radius: 8px;
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+/* Navigation Items – Hover State */
+.nav-item:hover {
+  color: #2c71e7;
+}
+
+nav .btn-primary {
+  margin-left: 24px;
+}
+
+/* Logo */
+.left-items a {
+  display: inline-flex;
+  margin: 0;
+}
+
+/* Logo — Hover State*/
+.left-items a:hover {
+  opacity: 0.5;
+  background: transparent;
+}
