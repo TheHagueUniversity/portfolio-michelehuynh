@@ -232,3 +232,20 @@ nav .btn-primary {
   opacity: 0.5;
   background: transparent;
 }
+
+
+/* Footer
+------------------------------------------------*/
+
+footer {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.04);
+  border-top: 1px solid rgb(212, 212, 212);
+  text-align: center;
+  padding: 8px;
+  color: #797989;
+}
+
+footer span {
+  color: #DC2E20;
+}
