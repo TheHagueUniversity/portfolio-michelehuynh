@@ -26,7 +26,7 @@ header h3 {
   margin: 64px 0;
   font-weight: 300;
   line-height: 40px;
-  color: #797989;
+  color: #7c6e6e;
 }
 
 header .btn-secondary {
@@ -55,7 +55,7 @@ header .animation {
   font-size: 20px;
   margin: 32px 0;
   font-weight: 300;
-  color: #797989;
+  color: #7c6e6e;
 }
 
 .projects a {
@@ -137,7 +137,7 @@ header .animation {
   text-align: center;
   font-size: 24px;
   font-weight: 300;
-  color: #797989;
+  color: #7c6e6e;
 }
 
 .email {
@@ -154,20 +154,4 @@ header .animation {
   font-size: 24px;
   font-weight: 400;
   text-decoration: none;
-}
-
-/* Footer
-------------------------------------------------*/
-
-footer {
-  width: 100%;
-  background: rgba(255, 255, 255, 0.04);
-  border-top: 1px solid rgb(212, 212, 212);
-  text-align: center;
-  padding: 8px;
-  color: #797989;
-}
-
-footer span {
-  color: #DC2E20;
 }
