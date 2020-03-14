@@ -3,46 +3,6 @@ header .content-wrap-960 {
     border-bottom: 1px solid rgb(212, 212, 212);
 }
 
-.red {
-    background: #DC2E20 !important;
-}
-
-.red p {
-    color: white !important;
-}
-
-.full-width {
-    padding: 16px 40px !important;
-    width: 100% !important;
-}
-
-.spec {
-    display: inline-block;
-    padding: 16px 24px;
-    margin-right: 8px;
-    margin-top: 16px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-}
-
-.spec-title {
-    color: #DC2E20;
-    font-weight: 600;
-    margin: 0;
-}
-
-.spec-description {
-    margin: 0;
-}
-
-.image {
-    background: white;
-    border-radius: 16px;
-    border: 1px solid rgb(212, 212, 212);
-    margin: 40px 0;
-}
-
 header h2 {
     padding-bottom: 24px;
 }
