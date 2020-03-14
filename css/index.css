@@ -101,6 +101,10 @@ header .animation {
   background-image: url('../images/rijksmuseum-thmb.jpg');
 }
 
+.thmb-03 {
+  background-image: url('../images/processing-thmb.png');
+}
+
 /* Contact
 ------------------------------------------------*/
 
