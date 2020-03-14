@@ -1,5 +1,6 @@
 /* Setup
 ------------------------------------------------*/
+
 html,
 body,
 div {
@@ -58,7 +59,7 @@ html {
 ------------------------------------------------*/
 
 body {
-  background: white;
+  background: #fefbfa;
   color: black;
   margin: 0;
   padding: 0;
@@ -103,7 +104,7 @@ a:focus {
   display: inline-flex;
   margin: 0 auto;
   padding: 16px 32px;
-  background: black;
+  background: #DC2E20;
   border-radius: 48px;
   text-decoration: none;
   font-size: 20px;
@@ -113,7 +114,7 @@ a:focus {
 
 /* Primary – Hover State */
 .btn-primary:hover {
-  background: #2c71e7;
+  background: black;
   color: white;
 }
 
@@ -148,7 +149,7 @@ a:focus {
 
 /* Link – Default State */
 .link-btn {
-  color: black;
+  color: #DC2E20;
   text-decoration: none;
   font-size: 24px;
   font-weight: 500;
@@ -175,7 +176,8 @@ nav {
   top: 0;
   display: flex;
   width: 100%;
-  background: white;
+  background: #fefbfa;
+  ;
   overflow: hidden;
   height: 80px;
 }
@@ -203,17 +205,17 @@ nav {
 .nav-item {
   padding: 12px 16px;
   margin: 0 8px;
-  border-radius: 8px;
   color: black;
   font-size: 16px;
   font-weight: normal;
   text-decoration: none;
 }
 
-/* Navigation Items – Hover State */
 .nav-item:hover {
-  color: #2c71e7;
+  border-bottom: 4px solid #DC2E20;
 }
+
+/* Navigation Items – Hover State */
 
 nav .btn-primary {
   margin-left: 24px;
